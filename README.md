@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 | File | Topic | What You'll Learn |
 |------|-------|-------------------|
-| `01_series.ipynb` | Pandas Series | Creating, indexing, and operating on Series |
+| `01_Basic.ipynb` | Pandas Series | Creating, indexing, and operating on Series |
 | `02_dataframe_creation.ipynb` | DataFrame Basics | Creating DataFrames from dicts, lists, and CSVs |
 | `03_reading_writing.ipynb` | File I/O | Reading/writing CSV, Excel, and JSON files |
 | `04_viewing_data.ipynb` | Exploring Data | `head()`, `tail()`, `info()`, `describe()`, `shape` |
@@ -78,7 +78,7 @@ df['Score'].fillna(df['Score'].mean(), inplace=True)
 ```
 pandas-repo/
 │
-├── 01_series.ipynb
+├── 01_Basic.ipynb
 ├── 02_dataframe_creation.ipynb
 ├── 03_reading_writing.ipynb
 ├── 04_viewing_data.ipynb
