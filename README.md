@@ -39,16 +39,16 @@ pip install -r requirements.txt
 
 | File | Topic | What You'll Learn |
 |------|-------|-------------------|
-| `01_series.py` | Pandas Series | Creating, indexing, and operating on Series |
-| `02_dataframe_creation.py` | DataFrame Basics | Creating DataFrames from dicts, lists, and CSVs |
-| `03_reading_writing.py` | File I/O | Reading/writing CSV, Excel, and JSON files |
-| `04_viewing_data.py` | Exploring Data | `head()`, `tail()`, `info()`, `describe()`, `shape` |
-| `05_indexing_selection.py` | Selecting Data | Column selection, `loc`, `iloc` |
-| `06_filtering.py` | Filtering Rows | Boolean conditions and multiple filters |
-| `07_sorting.py` | Sorting | Sorting by columns, index, ascending/descending |
-| `08_handling_nulls.py` | Missing Data | `isnull()`, `dropna()`, `fillna()` |
-| `09_adding_columns.py` | Modifying DataFrames | Adding, renaming, and dropping columns |
-| `10_basic_stats.py` | Statistics | `mean()`, `sum()`, `count()`, `min()`, `max()`, `value_counts()` |
+| `01_series.ipynb` | Pandas Series | Creating, indexing, and operating on Series |
+| `02_dataframe_creation.ipynb` | DataFrame Basics | Creating DataFrames from dicts, lists, and CSVs |
+| `03_reading_writing.ipynb` | File I/O | Reading/writing CSV, Excel, and JSON files |
+| `04_viewing_data.ipynb` | Exploring Data | `head()`, `tail()`, `info()`, `describe()`, `shape` |
+| `05_indexing_selection.ipynb` | Selecting Data | Column selection, `loc`, `iloc` |
+| `06_filtering.ipynb` | Filtering Rows | Boolean conditions and multiple filters |
+| `07_sorting.ipynb` | Sorting | Sorting by columns, index, ascending/descending |
+| `08_handling_nulls.ipynb` | Missing Data | `isnull()`, `dropna()`, `fillna()` |
+| `09_adding_columns.ipynb` | Modifying DataFrames | Adding, renaming, and dropping columns |
+| `10_basic_stats.ipynb` | Statistics | `mean()`, `sum()`, `count()`, `min()`, `max()`, `value_counts()` |
 
 ```python
 import pandas as pd
@@ -78,7 +78,7 @@ df['Score'].fillna(df['Score'].mean(), inplace=True)
 ```
 pandas-repo/
 │
-├── 01_Basic.ipynb
+├── 01_series.ipynb
 ├── 02_dataframe_creation.ipynb
 ├── 03_reading_writing.ipynb
 ├── 04_viewing_data.ipynb
