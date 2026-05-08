@@ -39,18 +39,17 @@ pip install -r requirements.txt
 
 | File | Topic | What You'll Learn |
 |------|-------|-------------------|
-| `01_Basic.ipynb` | Pandas Series | Creating, indexing, and operating on Series |
-| `02_dataframe_creation.ipynb` | DataFrame Basics | Creating DataFrames from dicts, lists, and CSVs |
-| `03_reading_writing.ipynb` | File I/O | Reading/writing CSV, Excel, and JSON files |
-| `04_viewing_data.ipynb` | Exploring Data | `head()`, `tail()`, `info()`, `describe()`, `shape` |
-| `05_indexing_selection.ipynb` | Selecting Data | Column selection, `loc`, `iloc` |
-| `06_filtering.ipynb` | Filtering Rows | Boolean conditions and multiple filters |
-| `07_sorting.ipynb` | Sorting | Sorting by columns, index, ascending/descending |
-| `08_handling_nulls.ipynb` | Missing Data | `isnull()`, `dropna()`, `fillna()` |
-| `09_adding_columns.ipynb` | Modifying DataFrames | Adding, renaming, and dropping columns |
-| `10_basic_stats.ipynb` | Statistics | `mean()`, `sum()`, `count()`, `min()`, `max()`, `value_counts()` |
-
-```python
+| `01.Basic.ipynb` | Pandas Basics | Introduction to Pandas, Series, and basic operations |
+| `02.Data_frames.ipynb` | DataFrames | Creating and working with DataFrames |
+| `03.Data_frames_function.ipynb` | DataFrame Functions | Exploring useful DataFrame functions and methods |
+| `04.Groupby_objects.ipynb` | GroupBy Operations | Grouping, aggregating, and analyzing data |
+| `05.Merging_joining_concatenating.ipynb` | Merge, Join & Concatenation | Combining multiple DataFrames using merge, join, and concat |
+| `06.Multiindex.ipynb` | MultiIndex | Working with hierarchical indexing in Pandas |
+| `07.Long_vs_Wide_data.ipynb` | Long vs Wide Data | Understanding and reshaping long and wide data formats |
+| `08.vectorized_operation.ipynb` | Vectorized Operations | Performing fast and efficient operations on data |
+| `09.Timestamp_objects.ipynb` | Timestamp Objects | Working with timestamps and date-time values |
+| `10.datetimeIndex_object.ipynb` | DateTimeIndex Object | Handling and indexing time-series data using DateTimeIndex |
+``
 import pandas as pd
 
 # Create a DataFrame
@@ -78,16 +77,16 @@ df['Score'].fillna(df['Score'].mean(), inplace=True)
 ```
 pandas-repo/
 │
-├── 01_Basic.ipynb
-├── 02_dataframe_creation.ipynb
-├── 03_reading_writing.ipynb
-├── 04_viewing_data.ipynb
-├── 05_indexing_selection.ipynb
-├── 06_filtering.ipynb
-├── 07_sorting.ipynb
-├── 08_handling_nulls.ipynb
-├── 09_adding_columns.ipynb
-├── 10_basic_stats.ipynb
+├── 1.Basic.ipynb
+├── 2.Dataframes.ipynb
+├── 3.dataframe_function.ipynb
+├── 4.Groupby_objects.ipynb
+├── 5.merger_joining_concatation.ipynb
+├── 6.Multiindex.ipynb
+├── 7.Long_vs_Wide_data.ipynb
+├── 8.vectorized_operation.ipynb
+├── 9.Timestamp_objects.ipynb
+├── 10.datetimeIndex_object.ipynb
 │
 ├── datasets/
 │   └── sample_data.csv
