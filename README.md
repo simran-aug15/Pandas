@@ -75,6 +75,11 @@ df['Score'].fillna(df['Score'].mean(), inplace=True)
 ## 🗂️ Folder Structure
 
 ```
+# 📊 Pandas Repository
+
+## 🗂️ Folder Structure
+
+```bash
 pandas-repo/
 │
 ├── 1.Basic.ipynb
@@ -93,6 +98,7 @@ pandas-repo/
 │
 ├── requirements.txt
 └── README.md
+
 ```
 
 ---
